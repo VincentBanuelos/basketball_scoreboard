@@ -1,0 +1,96 @@
+# ==========================================
+# 1. Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ==========================================
+# 2. Package Managers & Dependencies
+# ==========================================
+node_modules/
+jspm_packages/
+bower_components/
+.pnpm-store/
+vendor/
+.bundle/
+Gemfile.lock
+.venv/
+venv/
+env/
+ENV/
+lib/
+lib64/
+
+# ==========================================
+# 3. Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.secret
+*.pem
+*.key
+credentials.json
+
+# ==========================================
+# 4. Build Outputs, Compiles, and Caches
+# ==========================================
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.pyc
+*.pyo
+.pytest_cache/
+.sass-cache/
+
+# ==========================================
+# 5. Logs and Databases
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.sql
+*.sqlite
+*.db
+
+# ==========================================
+# 6. IDEs & Text Editors (Optional)
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iml
+
+# Vim
+*~
+*.swp
